@@ -1,3 +1,6 @@
+<!-- All of this will be replaced with:     <\?php render_page("home") ?>
+---- All of the below HTML will be copied and pasted into a CMS "page"-->
+
 <div id="home-wrapper">
     <div class="container">
         <div class="jumbo-paragraph">

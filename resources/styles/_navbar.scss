@@ -24,13 +24,16 @@
     a:visited {
         color: $main-green;
     }
+    a:focus {
+        text-decoration: none;
+    }
     li:hover {
         background-color: #d9fab9;
         color: $main-orange;
     }
     #home-logo,
     #job-openings,
-    #call-now  {
+    #call-now {
         border-right: none;
     }
     #call-now a {

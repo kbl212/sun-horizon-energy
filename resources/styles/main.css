@@ -118,6 +118,9 @@ body {
 #navbar-wrapper a:visited {
   color: #38A441; }
 
+#navbar-wrapper a:focus {
+  text-decoration: none; }
+
 #navbar-wrapper li:hover {
   background-color: #d9fab9;
   color: #FF860E; }
@@ -137,3 +140,65 @@ body {
 #navbar-wrapper #solar-list {
   display: block;
   height: 200px; }
+
+#whatsnew-wrapper .container {
+  padding: 0 75px 50px 50px; }
+
+#whatsnew-wrapper a {
+  color: #FF860E; }
+
+#whatsnew-wrapper a:visited {
+  color: #FF860E; }
+
+#whatsnew-wrapper h3 {
+  width: 50%;
+  border-bottom: 5px solid #000;
+  font-weight: bold;
+  color: gray; }
+
+#whatsnew-wrapper h4 {
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+#whatsnew-wrapper .news-row {
+  margin-bottom: 50px;
+  height: 300px;
+  width: 100%; }
+
+#whatsnew-wrapper .news-block-left, #whatsnew-wrapper .news-block-right {
+  width: 440px;
+  height: 300px;
+  position: relative; }
+
+#whatsnew-wrapper .news-block-left {
+  float: left; }
+
+#whatsnew-wrapper .news-block-right {
+  float: right; }
+
+#whatsnew-wrapper .calendar-one, #whatsnew-wrapper .calendar-two {
+  display: block;
+  height: 40%; }
+
+#whatsnew-wrapper .calendar-one {
+  position: absolute;
+  top: 0; }
+
+#whatsnew-wrapper .calendar-two {
+  position: absolute;
+  bottom: 0; }
+
+#whatsnew-wrapper .calendar-image {
+  float: left;
+  margin-left: 20px;
+  display: inline-block;
+  width: 75px;
+  height: 75px; }
+
+#whatsnew-wrapper .calendar-paragraph {
+  float: right;
+  margin-right: 20px;
+  display: inline-block;
+  width: 50%;
+  word-wrap: break-word;
+  overflow: hidden; }
