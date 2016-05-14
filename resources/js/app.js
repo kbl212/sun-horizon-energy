@@ -40,15 +40,15 @@ app.config(['$routeProvider', function ($routeProvider) {
             controller: 'ourteamCtrl'
         })
         .when('/productinnovation', {
-            templateUrl: 'resources/productinnovation.php',
+            templateUrl: 'resources/php/productinnovation.php',
             controller: 'productinnovationCtrl'
         })
         .when('/taxincentives', {
-            templateUrl: 'resources/taxincentives.php',
+            templateUrl: 'resources/php/taxincentives.php',
             controller: 'taxincentivesCtrl'
         })
         .when('/whatsnew', {
-            templateUrl: 'resources/whatsnew.php',
+            templateUrl: 'resources/php/whatsnew.php',
             controller: 'whatsnewCtrl'
         })
         .otherwise({

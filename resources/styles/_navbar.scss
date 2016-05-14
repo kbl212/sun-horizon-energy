@@ -1,0 +1,47 @@
+#navbar-wrapper {
+    ul {
+        background-color: #fff;
+        height: 60px;
+    }
+    li {
+        color: $main-green;
+        display: inline;
+        font-weight: bold;
+        border-right: 1px solid #000;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    a {
+        color: $main-green;
+    }
+    a:hover {
+        text-decoration: none;
+        color: $main-orange;
+    }
+    a:visited {
+        color: $main-green;
+    }
+    li:hover {
+        background-color: #d9fab9;
+        color: $main-orange;
+    }
+    #home-logo,
+    #job-openings,
+    #call-now  {
+        border-right: none;
+    }
+    #call-now a {
+        background-color: $main-orange;
+        padding: 10px;
+        color: #fff;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+    #solar-list {
+        display: block;
+        height: 200px;
+    }
+}
