@@ -3,7 +3,8 @@
   height: 100%;
   color: lightslategray; }
   #about-wrapper strong {
-    color: #000; }
+    color: #000;
+    font-style: italic; }
   #about-wrapper .container {
     padding-bottom: 200px; }
   #about-wrapper .about-row {
@@ -31,6 +32,8 @@
     display: inline-block; }
   #about-wrapper h2 {
     margin-left: 75px; }
+  #about-wrapper h2 strong {
+    font-style: normal; }
   #about-wrapper .about-row-borderless {
     border-bottom: none; }
 
@@ -40,6 +43,19 @@
   color: #fff; }
   #footer-wrapper p {
     text-align: center; }
+
+#getstarted-wrapper {
+  color: lightslategray; }
+  #getstarted-wrapper .container {
+    padding: 30px 75px 75px 75px; }
+  #getstarted-wrapper h2 {
+    font-weight: bold; }
+  #getstarted-wrapper strong {
+    color: #000;
+    font-style: italic; }
+  #getstarted-wrapper button {
+    font-size: 24px;
+    text-transform: uppercase; }
 
 html {
   background-color: #000;
