@@ -51,6 +51,10 @@ app.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'resources/php/whatsnew.php',
             controller: 'whatsnewCtrl'
         })
+        .when('/whysolar', {
+            templateUrl: 'resources/php/whysolar.php',
+            controller: 'whysolarCtrl'
+        })
         .otherwise({
             redirectTo: '/home'
         })

@@ -1,8 +1,38 @@
-.test {
-  width: 100%; }
-
-.something {
-  font-size: 14px; }
+#about-wrapper {
+  width: 100%;
+  height: 100%;
+  color: lightslategray; }
+  #about-wrapper strong {
+    color: #000; }
+  #about-wrapper .container {
+    padding-bottom: 200px; }
+  #about-wrapper .about-row {
+    margin: 50px;
+    border-bottom: 4px solid #000;
+    width: 90%; }
+  #about-wrapper .clear {
+    clear: both; }
+  #about-wrapper .about-left {
+    float: left;
+    display: inline-block;
+    margin: 0 50px 50px 50px;
+    width: 25%; }
+  #about-wrapper .about-right {
+    float: right;
+    display: inline-block;
+    margin-right: 200px;
+    width: 30%; }
+  #about-wrapper ul {
+    list-style: circle; }
+  #about-wrapper img {
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block; }
+  #about-wrapper h2 {
+    margin-left: 75px; }
+  #about-wrapper .about-row-borderless {
+    border-bottom: none; }
 
 #footer-wrapper {
   padding-top: 50px;
@@ -202,3 +232,33 @@ body {
   width: 50%;
   word-wrap: break-word;
   overflow: hidden; }
+
+#whysolar-wrapper .container {
+  padding-bottom: 10px; }
+
+#whysolar-wrapper img {
+  width: 99.9%; }
+
+#whysolar-wrapper .links-container {
+  width: 100%;
+  position: relative; }
+
+#whysolar-wrapper .links-section {
+  position: absolute;
+  top: 50px;
+  left: 50px; }
+
+#whysolar-wrapper a {
+  display: block;
+  margin-bottom: 75px; }
+
+#whysolar-wrapper .btn {
+  font-size: 24px !important; }
+
+#whysolar-wrapper h2 {
+  color: #38A441;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #000; }
+
+#whysolar-wrapper img {
+  opacity: 0.5; }
