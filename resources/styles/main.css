@@ -377,6 +377,29 @@ body {
   #navbar-wrapper .dropdown:hover .dropbtn {
     background-color: #d9fab9; }
 
+#ourteam-wrapper .container {
+  padding: 30px 75px 75px 75px; }
+
+#ourteam-wrapper .team-row {
+  margin-bottom: 50px; }
+
+#ourteam-wrapper .team-image {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px; }
+
+#ourteam-wrapper .team-bio {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top; }
+
+#ourteam-wrapper h5 {
+  font-weight: bold; }
+
+#ourteam-wrapper p {
+  color: lightslategray; }
+
 #taxincentives-wrapper {
   color: lightslategray; }
   #taxincentives-wrapper .container {
