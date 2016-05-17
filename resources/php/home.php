@@ -10,7 +10,7 @@
                 invest in your future
                 <br>
                 <br>
-                <button class="btn btn-success">Go Green</button>
+                <a href="#/benefits"><button class="btn btn-success">Go Green</button></a>
             </div>
         </div>
         <div class="home-layer">
@@ -22,7 +22,7 @@
                 <p>Cut your electric bill in half while helping the environment. Everyone has a reason to go solar</p>
                 <br>
                 <br>
-                <button class="btn btn-success">Learn More</button>
+                <a href="#/about"><button class="btn btn-success">Learn More</button></a>
             </div>
         </div>
         <div class="home-layer">
@@ -35,7 +35,7 @@
                 year round installations and are with you from the initial sale to the installation.</p>
                 <br>
                 <br>
-                <button class="btn btn-success">Find Out More</button>
+                <a href="#/about"><button class="btn btn-success">Find Out More</button></a>
             </div>
         </div>
         <div class="home-layer">
@@ -45,12 +45,12 @@
                 <br>
                 <br>
                 <p>From design to financing, we are here to help you get you started. Let us guide you through the process.</p>
-                <button class="btn btn-success">Let's Get Started</button>
+                <a href="#/getstarted"><button class="btn btn-success">Let's Get Started</button></a>
             </div>
         </div>
         <div class="home-layer">
             <img id="conversation-pic" src="resources/images/conversationPic.jpg">
-            <button class="btn btn-success hiring-btn">Now Hiring</button>
+            <a href="#/jobopenings"><button class="btn btn-success hiring-btn">Now Hiring</button></a>
         </div>
         <div id="rectangle-one">
         </div>

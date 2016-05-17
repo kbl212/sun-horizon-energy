@@ -29,6 +29,15 @@
         font-weight: bold;
     }
     
+    a {
+        color: $main-orange;
+        text-decoration: underline;
+    }
+    
+    a:visited {
+        color: $main-orange;
+    }
+    
     #more-options {
         font-weight: 400;
         color: $main-green;

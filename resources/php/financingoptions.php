@@ -14,7 +14,7 @@
         <br>
         <div class="financing-row">
             <div class="financing-image">
-                <img src="resources/images/financingOptionsPics/homeOwnersPic.png">
+                <a href="http://www.solarsimplified.org"><img src="resources/images/financingOptionsPics/homeOwnersPic.png"></a>
             </div>
             <div class="financing-description">
                 <p>The state of Utah is quickly adapting new clean energy finance options, for homeowners to finance their solar installations. There are several financing options at SolarSimplified, check it out <a href="http://www.solarsimplified.org/incentives-financing/financing-options-programs">HERE​</a></p>
@@ -32,10 +32,10 @@
         <br>
         <div class="financing-row">
             <div class="financing-image">
-                <img src="resources/images/financingOptionsPics/usBankPic.jpg">
+                <a href="http://www.usbank.com"><img src="resources/images/financingOptionsPics/usBankPic.jpg"></a>
             </div>
             <div class="financing-description">
-                <p>We have partnered with USBANK to offer Utah customers a low 1.99% solar equity loan. In Addition, USBANK will also also work with our customers in finding the best finance option. Please call Lawrence Lee at 801.222.3227 or email <a href="mailto:Lawrence.lee@usbank.com">Lawrence.lee@usbank.com and tell him that Sun Horizon Energy referred you.</a> </p>
+                <p>We have partnered with USBANK to offer Utah customers a low 1.99% solar equity loan. In Addition, USBANK will also also work with our customers in finding the best finance option. Please call Lawrence Lee at 801.222.3227 or email <a href="mailto:Lawrence.lee@usbank.com">Lawrence.lee@usbank.com</a> and tell him that Sun Horizon Energy referred you. </p>
             </div>
         </div>
         <br>

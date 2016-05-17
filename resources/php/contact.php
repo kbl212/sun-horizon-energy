@@ -13,7 +13,7 @@
                 <li>Luis Carter</li>
                 <li>487 South Orem Boulevard</li>
                 <li>Orem, UT, United States</li>
-                <li>+1 801.831.883</li>
+                <li>+1 801.831.8883</li>
                 <li><a href="mailto:lcarter@sunhorizonenergy.com">lcarter@sunhorizonenergy.com</a></li>
             </ul>
         </div>

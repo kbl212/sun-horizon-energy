@@ -147,6 +147,13 @@
 #financingoptions-wrapper p {
   font-weight: bold; }
 
+#financingoptions-wrapper a {
+  color: #FF860E;
+  text-decoration: underline; }
+
+#financingoptions-wrapper a:visited {
+  color: #FF860E; }
+
 #financingoptions-wrapper #more-options {
   font-weight: 400;
   color: #38A441;
