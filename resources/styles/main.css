@@ -401,7 +401,11 @@ body {
       #navbar-wrapper #mobile-nav-list .dropbtn {
         border: none; }
       #navbar-wrapper #mobile-nav-list .dropdown {
-        display: block; } }
+        display: block; }
+      #navbar-wrapper #mobile-nav-list .dropdown-content {
+        position: relative;
+        margin: 0 auto;
+        width: 100%; } }
 
 #ourteam-wrapper .container {
   padding: 30px 75px 75px 75px; }
