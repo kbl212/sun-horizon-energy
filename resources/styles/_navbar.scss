@@ -37,7 +37,8 @@
     li:hover {
         background-color: #d9fab9;
     }
-    ul li:first-child:hover, ul li:last-child:hover {
+    ul li:first-child:hover,
+    ul li:last-child:hover {
         background-color: #fff;
     }
     #home-logo,
@@ -46,7 +47,7 @@
         border-right: none;
     }
     #call-now a {
-        background-color: $main-orange;
+        background: linear-gradient(to right, $main-orange, #fcdf9d);
         padding: 10px;
         color: #fff;
         border-radius: 10px;
@@ -103,5 +104,31 @@
     /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown:hover .dropbtn {
         background-color: #d9fab9;
+    }
+    #mobile-nav-list {
+        display: none;
+    }
+    //-------------------------MEDIA QUERIES----------------------------
+    @media screen and (max-width:1260px) {
+        #main-nav-list {
+            display: none;
+        }
+        #mobile-nav-list {
+            display: block;
+            height: auto;
+            text-align: center;
+            li {
+                display: block;
+                border: none;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+            .dropbtn {
+                border: none;
+            }
+            .dropdown {
+                display: block;
+            }
+        }
     }
 }

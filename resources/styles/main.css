@@ -335,14 +335,15 @@ body {
     text-decoration: none; }
   #navbar-wrapper li:hover {
     background-color: #d9fab9; }
-  #navbar-wrapper ul li:first-child:hover, #navbar-wrapper ul li:last-child:hover {
+  #navbar-wrapper ul li:first-child:hover,
+  #navbar-wrapper ul li:last-child:hover {
     background-color: #fff; }
   #navbar-wrapper #home-logo,
   #navbar-wrapper #job-openings,
   #navbar-wrapper #call-now {
     border-right: none; }
   #navbar-wrapper #call-now a {
-    background-color: #FF860E;
+    background: linear-gradient(to right, #FF860E, #fcdf9d);
     padding: 10px;
     color: #fff;
     border-radius: 10px;
@@ -383,6 +384,24 @@ body {
     display: block; }
   #navbar-wrapper .dropdown:hover .dropbtn {
     background-color: #d9fab9; }
+  #navbar-wrapper #mobile-nav-list {
+    display: none; }
+  @media screen and (max-width: 1260px) {
+    #navbar-wrapper #main-nav-list {
+      display: none; }
+    #navbar-wrapper #mobile-nav-list {
+      display: block;
+      height: auto;
+      text-align: center; }
+      #navbar-wrapper #mobile-nav-list li {
+        display: block;
+        border: none;
+        padding: 5px;
+        margin-bottom: 10px; }
+      #navbar-wrapper #mobile-nav-list .dropbtn {
+        border: none; }
+      #navbar-wrapper #mobile-nav-list .dropdown {
+        display: block; } }
 
 #ourteam-wrapper .container {
   padding: 30px 75px 75px 75px; }
