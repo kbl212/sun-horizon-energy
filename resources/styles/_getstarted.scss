@@ -14,4 +14,14 @@
         font-size: 24px;
         text-transform: uppercase;
     }
+//------------MEDIA QUERIES------------------
+    @media screen and (max-width: 500px) {
+        button {
+            width: 150px;
+            white-space: normal;
+        }
+        h2 {
+            width: 150px;
+        }
+    }
 }

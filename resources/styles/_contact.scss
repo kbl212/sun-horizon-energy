@@ -91,4 +91,15 @@
     .fa {
         margin-left: 5px;
     }
+//------------------MEDIA QUERIES-----------------------
+    @media screen and (max-width: 700px) {
+        .our-location, .get-in-touch {
+            display: block;
+            width: 100%;
+            margin-left: 0;
+        }
+        .container {
+            padding: 25px;
+        }
+    }
 }

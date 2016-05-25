@@ -17,11 +17,9 @@
             <img id="solar-panels" src="resources/images/solarPanels.jpg">
             <div class="opaque-layer-right">
                 <h2>WHY SOLAR</h2>
-                <br>
-                <br>
+
                 <p>Cut your electric bill in half while helping the environment. Everyone has a reason to go solar</p>
-                <br>
-                <br>
+
                 <a href="#/about"><button class="btn btn-success">Learn More</button></a>
             </div>
         </div>
@@ -29,12 +27,10 @@
             <img id="sunset" src="resources/images/sunsetPic.jpg">
             <div class="opaque-layer-left">
                 <h2>WHAT WE DO</h2>
-                <br>
-                <br>
+
                 <p>We understand that everyone is different, so we will cater to exactly what you need. We do
                 year round installations and are with you from the initial sale to the installation.</p>
-                <br>
-                <br>
+
                 <a href="#/about"><button class="btn btn-success">Find Out More</button></a>
             </div>
         </div>
@@ -42,9 +38,9 @@
             <img id="sunflower" src="resources/images/sunflowerPic.jpg">
             <div class="opaque-layer-right">
                 <h2>HOW TO GET STARTED</h2>
-                <br>
-                <br>
+     
                 <p>From design to financing, we are here to help you get you started. Let us guide you through the process.</p>
+
                 <a href="#/getstarted"><button class="btn btn-success">Let's Get Started</button></a>
             </div>
         </div>

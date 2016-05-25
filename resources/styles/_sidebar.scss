@@ -1,0 +1,41 @@
+#sidebar-wrapper {
+    position: fixed;
+    left: 0;
+    top: 300px;
+    width: 50px;
+    z-index: 100;
+    img {
+        display: block;
+        height: 50px;
+        width: 50px;
+    }
+    .fa-print {
+        font-size: 42px;
+        background-color: red;
+        color: #fff;
+        border-radius: 50px;
+        padding: 5px;
+    }
+    .fa-envelope-o {
+        font-size: 32px;
+        background-color: gray;
+        color: #fff;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    img, .fa {
+        transition: all 0.5s;
+    }
+    img:hover,
+    .fa:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+//-----------------MEDIA QUERIES--------------------
+    @media screen and (max-width: 900px) {
+        display: none;
+    }
+}

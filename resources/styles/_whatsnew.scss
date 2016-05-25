@@ -23,19 +23,21 @@
         height: 300px;
         width: 100%;
     }
-    .news-block-left, .news-block-right {
+    .news-block-left,
+    .news-block-right {
         width: 440px;
         height: 300px;
         position: relative;
     }
     .news-block-left {
-        float:left;
+        float: left;
     }
     .news-block-right {
-        float:right;
+        float: right;
     }
-    .calendar-one, .calendar-two {
-        display:block;
+    .calendar-one,
+    .calendar-two {
+        display: block;
         height: 40%;
     }
     .calendar-one {
@@ -47,18 +49,27 @@
         bottom: 0;
     }
     .calendar-image {
-        float:left;
+        float: left;
         margin-left: 20px;
         display: inline-block;
         width: 75px;
         height: 75px;
     }
     .calendar-paragraph {
-        float:right;
+        float: right;
         margin-right: 20px;
         display: inline-block;
         width: 50%;
-        word-wrap:break-word;
+        word-wrap: break-word;
         overflow: hidden;
+    }
+    //------------------MEDIA QUERIES----------------------
+    @media screen and (max-width: 900px) {
+        .news-block-right,
+        .news-block-left {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
     }
 }
