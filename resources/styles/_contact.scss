@@ -92,7 +92,12 @@
         margin-left: 5px;
     }
 //------------------MEDIA QUERIES-----------------------
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1200px) {
+        #address {
+            height: 50px;
+        }
+    }
+    @media screen and (max-width: 900px) {
         .our-location, .get-in-touch {
             display: block;
             width: 100%;

@@ -46,6 +46,12 @@
         font-size: 18px;
     }
 //------------------MEDIA QUERIES--------------------
+    @media screen and (max-width: 1000px) {
+        .financing-image, .financing-description {
+            display: block;
+            width: 100%;
+        }
+    }
     @media screen and (max-width: 700px) {
         #more-options {
             width: 300px;

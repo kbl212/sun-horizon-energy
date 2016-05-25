@@ -23,9 +23,11 @@
                 Name: *
                 <br>
                 <input type="text" name="Name" label="Name" ng-model="emailName"><i class="fa fa-times" ng-show="!emailName"></i><i class="fa fa-check-circle" ng-show="emailName"></i>
+                <br>
                 Email: *
                 <br>
                 <input type="text" name="Email" label="Email" ng-model="emailAddress" ng-keyup="isEmail(emailAddress)"><i class="fa fa-times" ng-show="!isValidEmail"></i><i class="fa fa-check-circle" ng-show="isValidEmail"></i>
+                <br>
                 <input id="updates-checkbox" type="checkbox" label="updates"><span> Check here to receive email updates</span>
                 <br>
                 Subject: *

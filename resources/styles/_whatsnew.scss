@@ -70,6 +70,10 @@
             width: 100%;
             float: none;
             text-align: center;
+            display: block;
+        }
+        .calendar-one, .calendar-two {
+            position: relative;
         }
     }
 }
