@@ -37,17 +37,22 @@
   #about-wrapper .about-row-borderless {
     border-bottom: none; }
   @media screen and (max-width: 1100px) {
-    #about-wrapper .about-left, #about-wrapper .about right {
+    #about-wrapper .about-left, #about-wrapper .about-right {
       width: 100%;
       float: none !important;
       display: block;
       margin-right: 0;
       margin-left: 0; }
     #about-wrapper img {
-      display: block; }
+      display: block;
+      float: none;
+      margin-left: 10px;
+      margin-bottom: 20px; }
     #about-wrapper p {
       width: 90%;
-      display: block; } }
+      display: block; }
+    #about-wrapper h2 {
+      margin-left: 10px; } }
 
 #benefits-wrapper .container {
   padding: 0 75px 75px 75px; }
@@ -200,6 +205,11 @@
   color: #fff; }
   #footer-wrapper p {
     text-align: center; }
+  #footer-wrapper a {
+    color: #FF860E;
+    text-decoration: none; }
+  #footer-wrapper a:visited {
+    color: #FF860E; }
 
 #getstarted-wrapper {
   color: lightslategray; }
@@ -408,6 +418,7 @@ body {
     display: inline;
     padding-right: 15px;
     padding-left: 15px;
+    margin-left: -3px;
     border-right: 1px solid #000;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
@@ -557,10 +568,10 @@ body {
   #sidebar-wrapper img:hover,
   #sidebar-wrapper .fa:hover {
     cursor: pointer;
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    transform: scale(1.5); }
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2); }
   @media screen and (max-width: 1000px) {
     #sidebar-wrapper {
       display: none; } }
@@ -641,7 +652,7 @@ body {
   word-wrap: break-word;
   overflow: hidden; }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1230px) {
   #whatsnew-wrapper .news-block-right,
   #whatsnew-wrapper .news-block-left {
     width: 100%;
@@ -649,7 +660,15 @@ body {
     text-align: center;
     display: block; }
   #whatsnew-wrapper .calendar-one, #whatsnew-wrapper .calendar-two {
-    position: relative; } }
+    position: relative; }
+  #whatsnew-wrapper .news-row {
+    height: auto; } }
+
+@media screen and (max-width: 600px) {
+  #whatsnew-wrapper .container {
+    padding-left: 5px; }
+  #whatsnew-wrapper .news-row {
+    margin-bottom: 5px; } }
 
 #whysolar-wrapper {
   width: 100%;
@@ -718,10 +737,10 @@ body {
   #sidebar-wrapper img:hover,
   #sidebar-wrapper .fa:hover {
     cursor: pointer;
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    transform: scale(1.5); }
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2); }
   @media screen and (max-width: 1000px) {
     #sidebar-wrapper {
       display: none; } }

@@ -11,6 +11,6 @@
         <p><strong>What does the process to getting started look like?</strong></p>
         <p>RESPONSE: The first step with every customer is to evaluate your current energy consumption. We do this by simply evaluating your most recent utility bill. Second, we will research your home and via google earth, for example, to determine the position of your home, with respect to direct sun contact and establish a soft evaluation on moving forward. We will then design a system for your home, based on historically usage. This free design is then presented to the homeowner. Following this free consultation, we move directly to a site survey, whereby, one of our trained site surveyors will go to a customer's home and evaluate the site for installation. Once a site survey is performed, we will then contact the homeowner and present the results. Upon acceptance of these results, we initiate "SolarGo"tm we pull permits from the city, purchase all equipment and secure an installation date. </p>
         <br>
-        <button class="btn btn-success">Let's Get Started</button>
+        <a href="#/contact"><button class="btn btn-success">Let's Get Started</button></a>
     </div>
 </div>

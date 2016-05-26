@@ -5,4 +5,11 @@
     p {
         text-align: center;
     }
+    a {
+        color: $main-orange;
+        text-decoration: none;
+    }
+    a:visited {
+        color: $main-orange;
+    }
 }

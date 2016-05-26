@@ -64,7 +64,7 @@
         overflow: hidden;
     }
     //------------------MEDIA QUERIES----------------------
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1230px) {
         .news-block-right,
         .news-block-left {
             width: 100%;
@@ -72,8 +72,20 @@
             text-align: center;
             display: block;
         }
+        
         .calendar-one, .calendar-two {
             position: relative;
+        }
+        .news-row {
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .container {
+            padding-left: 5px;
+        }
+        .news-row {
+            margin-bottom: 5px;
         }
     }
 }
