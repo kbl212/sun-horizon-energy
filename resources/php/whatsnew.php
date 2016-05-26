@@ -12,6 +12,7 @@
                 <img src="resources/images/whatsNewPics/d71633359418d2bad288c0a78c15807b.jpg">
             </div>
             <div class="news-block-right">
+                <!--"calendar-one" and "calendar-two" allow you to display two smaller items in one news block (one on top of the other)-->
                 <div class="calendar-one">
                     <img class="calendar-image" src="resources/images/whatsNewPics/newsThumbnail1.jpg">
                     <p class="calendar-paragraph"><strong>WED MAR 30</strong>
